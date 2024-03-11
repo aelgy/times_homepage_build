@@ -74,3 +74,16 @@ div.mostReadMins {
   font-size: 14px;
   margin-top: 8px;
 }
+
+#youShouldKnow {
+  margin: 60px 120px;
+}
+
+#secondPartTitle {
+  text-align: center;
+}
+
+#secondPart {
+  display: flex;
+  justify-content: center;
+}
