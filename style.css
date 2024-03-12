@@ -81,6 +81,7 @@ div.mostReadMins {
 
 #secondPartTitle {
   text-align: center;
+  font-family: monospace;
 }
 
 #secondPart {
@@ -118,4 +119,49 @@ img.secondCardImg {
 
 .secondCard:hover img {
   transform: scale(1.01, 1.01);
+}
+
+#editors {
+  padding: 32px 0px 64px 0px;
+}
+
+#editorsPicksTitle {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0px 24px 0px;
+}
+
+div.editorsPicksRow {
+  overflow-x: scroll;
+}
+
+#editorsPicks {
+  font-family: monospace;
+}
+
+div.editorsPicksSubscribe {
+  align-self: center;
+}
+
+a.editorsPicksSubscribeLink {
+  color: red;
+  font-size: 18px;
+}
+
+div.editorsCard {
+  border: 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+a.editorsPicksLink:link {
+  text-decoration: none;
+}
+
+div.latestStories {
+  background-color: #D0D0D0;
+}
+
+#featureVoices {
+  padding: 32px 0px 64px 0px;
 }
